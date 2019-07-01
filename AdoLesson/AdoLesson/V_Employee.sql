@@ -1,5 +1,5 @@
 ﻿CREATE VIEW [dbo].[V_Employee]
-	AS SELECT * ,
+	AS SELECT Emp.* ,
 			  Resp.[LastName] AS RespLastName,
 			  Resp.[FirstName] AS RespFirstName,
 			  Resp.[Email] AS RespEmail 
